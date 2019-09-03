@@ -1,0 +1,475 @@
+a {
+    text-decoration: none;
+}
+
+p {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+ul li {
+    list-style: none;
+}
+
+.l {
+    float: left;
+}
+
+.r {
+    float: right;
+}
+
+.clearfix:after {
+    content: '';
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+.m0 {
+    margin: 0px;
+}
+
+.mls {
+    margin-left: 5px;
+}
+
+.ml {
+    margin-left: 10px;
+}
+
+.mlm {
+    margin-left: 20px;
+}
+
+.mrs {
+    margin-right: 5px;
+}
+
+.mr {
+    margin-right: 10px;
+}
+
+.mrm {
+    margin-right: 20px;
+}
+
+.mts {
+    margin-top: 5px;
+}
+
+.mt {
+    margin-top: 10px;
+}
+
+.mtm {
+    margin-top: 20px;
+}
+
+.mbs {
+    margin-bottom: 5px;
+}
+
+.mbl {
+    margin-bottom: 50px;
+}
+
+.pbl {
+    padding-bottom: 50px;
+}
+
+.mb {
+    margin-bottom: 10px;
+}
+
+.mbm {
+    margin-bottom: 20px;
+}
+
+.plm {
+    padding-left: 15px !important;
+}
+
+.plx {
+    padding-left: 20px !important;
+}
+
+.pl {
+    padding-left: 10px;
+}
+
+.pls {
+    padding-left: 5px;
+}
+
+.prm {
+    padding-right: 20px;
+}
+
+.pr {
+    padding-right: 10px;
+}
+
+.prs {
+    padding-right: 5px;
+}
+
+.pts {
+    padding-top: 5px;
+}
+
+.pt {
+    padding-top: 10px;
+}
+
+.ptm {
+    padding-top: 30px;
+}
+
+.pbs {
+    padding-bottom: 5px;
+}
+
+.pb {
+    padding-bottom: 10px;
+}
+
+.pbm {
+    padding-bottom: 20px;
+}
+
+.m {
+    margin: 10px;
+}
+
+.mx {
+    margin: 15px;
+}
+
+.mxx {
+    margin: 20px;
+}
+
+.p {
+    padding: 10px;
+}
+
+.px {
+    padding: 15px;
+}
+
+.pxx {
+    padding: 20px;
+}
+
+.tl {
+    text-align: left;
+}
+
+.tc {
+    text-align: center;
+}
+
+.tr {
+    text-align: right;
+}
+
+.white {
+    color: #fff;
+}
+
+.color-b {
+    color: #2288EE !important;
+}
+
+.color-r {
+    color: #c51e1a;
+}
+
+.color-h {
+    color: #707070;
+}
+
+.color-o {
+    color: #e2721f;
+}
+
+.color-g {
+    color: #1aad19;
+}
+
+.b {
+    border: 1px solid #cec8c8;
+}
+
+.b_gr {
+    border: 1px solid #ccc;
+}
+
+.bra {
+    border-radius: 3px;
+}
+
+.bl {
+    border-left: 1px solid #cec8c8;
+}
+
+.br {
+    border-right: 1px solid #cec8c8;
+}
+
+.bt {
+    border-top: 1px solid #cec8c8;
+}
+
+.bb {
+    border-bottom: 1px solid #cec8c8;
+}
+
+.bb_blue {
+    border-bottom: 1px solid rgb(0, 193, 222);
+}
+
+.bl_blue {
+    border-left: 2px solid rgb(0, 193, 222);
+}
+
+.bg-w {
+    background: #fff;
+}
+
+.bg-r {
+    background: #c51e1a;
+}
+
+.bg-g {
+    background: #11b90f;
+}
+
+.bg-gr {
+    background: #eee;
+}
+
+.bg-y {
+    background: #fd892b;
+}
+
+.bg-h {
+    background: #F5F5F6;
+}
+
+.db {
+    display: block;
+}
+
+.dn {
+    display: none;
+}
+
+.dl {
+    display: inline;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.color-r {
+    color: #c51e1a;
+}
+
+.color-b {
+    color: rgb(0, 193, 222);
+}
+
+.color-w {
+    color: #fff;
+}
+
+.color-o {
+    color: #fd892b;
+}
+
+.color-lj {
+    color: #fc9153;
+}
+
+.flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.f1 {
+    flex: 1;
+}
+.f5{
+    flex: 5;
+}
+.fa {
+    justify-content: space-around;
+}
+
+.fb {
+    justify-content: space-between;
+}
+
+.fc {
+    justify-content: center;
+}
+
+.fw {
+    flex-wrap: wrap;
+}
+
+.fs {
+    font-size: 14px;
+}
+
+.fm {
+    font-size: 18px;
+}
+
+.fw {
+    font-weight: bold;
+}
+
+.col-5 {
+    width: 5%;
+}
+
+.col-10 {
+    width: 10%;
+}
+
+.col-13 {
+    width: 13%;
+}
+
+.col-15 {
+    width: 15%;
+}
+
+.col-18 {
+    width: 18%;
+}
+
+.col-20 {
+    width: 20%;
+}
+
+.col-22 {
+    width: 22%;
+}
+
+.col-23 {
+    width: 23%;
+}
+
+.col-24 {
+    width: 24.5%;
+}
+
+.col-25 {
+    width: 25%;
+}
+
+.col-27 {
+    width: 27%;
+}
+
+.col-30 {
+    width: 30%;
+}
+
+.col-33 {
+    width: 33%;
+}
+
+.col-37 {
+    width: 37%;
+}
+
+.col-40 {
+    width: 40%;
+}
+
+.col-45 {
+    width: 45%;
+}
+
+.col-48 {
+    width: 48%;
+}
+
+.col-49 {
+    width: 49%;
+}
+
+.col-50 {
+    width: 50%;
+}
+
+.col-60 {
+    width: 60%;
+}
+
+.col-62 {
+    width: 62%;
+}
+
+.col-70 {
+    width: 70%;
+}
+
+.col-75 {
+    width: 75%;
+}
+
+.col-78 {
+    width: 78%;
+}
+
+.col-80 {
+    width: 80%;
+}
+
+.col-83 {
+    width: 83%;
+}
+
+.col-85 {
+    width: 85%;
+}
+
+.col-90 {
+    width: 90%;
+}
+
+.col-88 {
+    width: 88%;
+}
+
+.col-100 {
+    width: 100%;
+}
+
+.relative {
+    position: relative;
+}
+
+.h45 {
+    height: 45px;
+}
+
+.lh45 {
+    line-height: 45px;
+}

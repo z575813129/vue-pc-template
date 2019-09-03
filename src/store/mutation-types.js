@@ -1,0 +1,6 @@
+export const LOGIN_SUCCESS = 'LOGIN_SUCCESS'
+export const LOGIN_FAIL = 'LOGIN_FAIL'
+export const SET_LEFT_BAR = 'SET_LEFT_BAR'
+export const ADD_TAG = 'ADD_TAG'
+export const CHECKED_TAG = 'CHECKED_TAG'
+export const DELETE_TAG = 'DELETE_TAG'

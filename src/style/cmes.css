@@ -1,0 +1,135 @@
+.el-main {
+    padding: 0 !important;
+}
+
+.el-menu {
+    background: #eaedf1;
+    border: none !important;
+}
+
+.el-container {
+    height: 100%;
+}
+
+.fade-enter-active, .fade-leave-active {
+    transition: opacity .5s
+}
+
+.fade-enter, .fade-leave-to {
+    opacity: 0
+}
+
+.el-carousel__arrow {
+    font-size: 60px !important;
+    font-weight: normal !important;
+}
+
+.el-carousel__arrow {
+    width: 200px !important;
+    height: 600px !important;
+    border-radius: 0 !important;
+    line-height: 60px !important;
+}
+
+.el-carousel__arrow--left {
+    left: 0;
+}
+
+.el-carousel__arrow--right {
+    right: 0;
+}
+
+.el-submenu .el-menu-item {
+    min-width: 165px !important;
+}
+
+.el-menu--collapse {
+    width: 50px !important
+}
+
+.el-menu-item-group {
+    /*margin-left: -5px;*/
+}
+
+.cmes-col_item {
+    position: relative;
+    height: 40px;
+    width: 285px !important;
+    line-height: 40px;
+    font-size: 12px;
+}
+
+.cmes-col_item label {
+    font-size: 12px;
+    width: 100px;
+    display: inline-block;
+    text-align: right;
+}
+
+.el-aside {
+    box-shadow: rgba(31, 29, 29, 0.34) 1px 0px 10px;
+}
+
+.cmes-col_item .el-input {
+    width: 180px !important;
+}
+
+.flex-wrap {
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.cmes-search {
+    height: 108px;
+    overflow: auto;
+    background: #fff;
+    box-shadow: 1px 2px 4px #b5b8bc;
+    display: flex;
+    align-items: center;
+}
+
+.cmes-col_buttons {
+    text-align: center;
+}
+
+.cmes-table_buttons {
+    display: block;
+    position: absolute;
+    top: 118px;
+    left: 0;
+    right: 0;
+    background: #fff;
+    padding: 10px 15px;
+}
+
+.cmes-table_content {
+    position: absolute;
+    top: 170px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: auto;
+    background: #fff;
+    padding: 0 15px 45px;
+}
+
+.cmes-pagination {
+    position: absolute;
+    left: 0;
+    right: 20px;
+    bottom: 0;
+    background: #fff;
+    z-index: 9;
+    padding-bottom: 5px;
+}
+
+.el-pagination {
+    margin-top: 5px;
+    padding-right: 15px;
+    float: right;
+}
+.el-table thead{
+    color: #000 !important;
+    font-weight: 700 !important;
+}

@@ -1,2 +1,7 @@
-# vue2-pc-template
-vue全家桶+Element 的pc端模板
+
+#### 安装教程
+
+1. npm nrm -g
+2. nrm use taobao
+3. npm install
+4. npm run start
