@@ -1,10 +1,9 @@
 <template>
     <div class="bac">
-        <div class="head "><span class="Yun">YunGeo·云集</span></div>
+        <div class="head "><span class="Yun">Anyway</span></div>
 
         <div class="text">
-            <p class="p1">GEELY</p>
-
+            <p class="p1">Anyway</p>
             <p>云集，让生活更便捷！</p>
             <p>快乐人生，吉利相伴!</p>
         </div>
@@ -39,23 +38,23 @@
 
         <div class="bottom">
             <div class="b-l l ">
-                <img src="../assets/contect.png" class="l"/>
-                <span>客服热线</span>
-                <p>4000-0571-11</p>
-            </div>
+            <img src="../assets/contect.png" class="l"/>
+            <span>客服热线</span>
+            <!--<p>123456</p>-->
+        </div>
 
             <div class="b-r-t r">
                 <ul>
-                    <li><a href="#">关于我们</a></li>
-                    <li><a href="#">云制造</a></li>
-                    <li><a href="#">云采购</a></li>
-                    <li><a href="#">云协同</a></li>
+                    <li><a href="#">生产执行</a></li>
+                    <li><a href="#">设备管理</a></li>
+                    <li><a href="#">物流管理</a></li>
+                    <li><a href="#">质量控制</a></li>
                     <li><a href="#">新闻资讯</a></li>
                 </ul>
 
 
             </div>
-            <div class="txt l">© 2013 浙江吉利控股集团 浙ICP备11045738号-8</div>
+            <div class="txt l">浙江 杭州 3321847368@qq.com</div>
 
         </div>
     </div>
@@ -98,6 +97,9 @@
         height: 50px;
         line-height: 50px;
         box-shadow: 0px -4px 26px #fdfdfe;
+        .text{
+            line-height: 20px
+        }
         .Yun {
             float: left;
             color: white;
@@ -187,6 +189,7 @@
         }
         p {
             margin: 22px;
+            line-height: 30px;
             font-size: 17px;
         }
     }
